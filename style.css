@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/intermediate-rwd/music-section-bg.png');
+  font-family: "Open Sans";
+  min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  margin-bottom: 15px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ececec;
+  margin-bottom: 25px;
+  width: 90%;
+  max-width: 600px;
+}
+
+.button {
+  font-family: "Open Sans";
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 28px;
+  margin: 10px;
+  background-color: #ffdda9;
+  color: #12022f;
+  border: 0px;
+}
+
+.outline-button {
+  border-radius: 28px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 28px;
+  margin: 10px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  color: #ececec;
+}
